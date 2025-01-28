@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel booking</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="https://img.freepik.com/premium-vector/hotel-logo-simple-illustration_434503-736.jpg?w=2000"
+                alt="Error Loading image">
+            <div>Royal Hotel</div>
+        </div><!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">ROOMS</a></li>
+                <li><a href="#">RESTRO & BAR</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+        <div class="stay">
+            <h4>Welcome to Royal Hotel !!</h4>
+            <h1>A Best Place to Stay</h1>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>Book your hotel now</h1>
+        <!-- <form action="noaction.php"> -->
+        <form>
+            <div id="form-group-id">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="number" id="age" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="gender" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" id="locality" placeholder="Enter your Locality">
+                </div>
+            </div>
+            <button type="submit" class="btn" onclick="getconfirm()">Book Now</button>
+        </form>
+    </div>
+
+    <script>
+
+        function getconfirm(){
+            var value=confirm("Do you want to continue?");
+            if ('myname'){
+                document.write("Booking confirmed");
+            }
+            else{
+                document.write("User don't want to continue");
+            }
+        }
+    </script>
+
+    <div class="special">
+        <h1>Hotel Accomodation</h1>
+        <p>We all live in an age that belongs to the young at heart. Life that is becoming extremely fast!</p>
+        <div class="image1">
+            <div class="img1" img src="https://www.decorilla.com/online-decorating/wp-content/uploads/2021/05/Mid-century-bedroom-boutique-hotel-interior-design-by-Mladen.jpg"
+            alt="Error"></div>
+            <div class="img2" img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQPDvht-vgaPp3XHKBHhRTbeVAp3KuExIxXA&usqp=CAU" alt="Error"></div>
+            <div class="img3" img src="" alt="Error"></div> 
+            <div class="img4" img src="" alt="Error"></div>
+        </div>
+    </div>
+    <div class="img-container">
+        <div class="img img1" ></div>
+        <div class="img img2" ></div>
+        <div class="img img3" ></div>
+        <div class="img img4" ></div>
+        <div class="img img5" ></div>
+    </div>
+    
+</body>
+
+</html>

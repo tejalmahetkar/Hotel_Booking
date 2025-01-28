@@ -1,0 +1,206 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url('https://cf.bstatic.com/xdata/images/hotel/max1024x768/441067144.jpg?k=d5653f7932a2e1ae2844b5abb14b045c3122128494bd7dbdf6b951461785ed12&o=&hp=1');
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    background-size: 1600px 600px;
+}
+
+.left {
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    display: inline-block;
+    color: beige;
+    font-size: x-small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.mid {
+    display: block;
+    width: 50%;
+    margin: 15px auto;
+    top: 15px;
+    color: white;
+}
+
+.right {
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    display: inline-block;
+    color: white;
+    border: 2px solid yellow;
+
+}
+
+.navbar {
+    display: inline-block;
+    margin: 20px 70px;
+
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Baloo Bhai';
+}
+
+.navbar li a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+.left img {
+    height: 50px;
+    width: 60px;
+}
+
+.left {
+    text-align: center;
+    font-size: small;
+    background-color: white;
+}
+
+.btn {
+    color: blanchedalmond;
+    background-color: black;
+    margin: 0px 3px;
+    padding: 3px 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: white;
+
+}
+
+#form-group-id {
+    border: 4px solid black;
+    border-radius: 6px;
+    background-color: rgb(58, 55, 55);
+    text-align: center;
+    padding: 2px;
+    display: block;
+    margin:auto 4px;
+    width: 400px;
+}
+
+.form-group input{
+    width: 95%;
+    border-radius: 4px;
+}
+
+.container {
+    border: 4px solid black;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 90px 500px;
+    width: 30%;
+    background-color: grey;
+}
+
+/* .form-group input {
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 2px;
+    border: 2px solid black;
+    margin: 5px auto;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    font-family: 'Exo 2', cursive;
+    font-size: small;
+} */
+
+.container h1 {
+    text-align: center;
+    color: black;
+}
+
+.container button {
+    width: 23%;
+    margin: auto;
+    display: block;
+}
+
+.stay {
+    color: white;
+    text-align: center;
+    position: relative;
+    bottom: -66px;
+    vertical-align: bottom;
+}
+
+.stay h4 {
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    bottom: -23px;
+    vertical-align: bottom;
+}
+
+.special p,
+h1 {
+    text-align: center;
+}
+
+.img {
+    width: 250px;
+    height: 300px;
+    border: 4px solid black;
+    display: flex;
+    margin: 5px;
+    display: inline-block;
+    margin: auto;
+    align-items: center;
+
+}
+
+.img-container {
+    padding-left: 7rem;
+}
+
+.img1 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCPqG89je1Qo6AGFcj8VkaKihIQfqLDXRpSQ&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQPDvht-vgaPp3XHKBHhRTbeVAp3KuExIxXA&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url('https://i.pinimg.com/236x/bb/ab/46/bbab46f120d074a39b3cffef0c37460f.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url('https://www.posad-hotel.com.ua/wp-content/uploads/2016/04/honeymoon-suite.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img5 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqsmnaKxc1rZH15HoQC6nzZ2joATwqTOn080G9ReUmF1o76VqO42tS_Mi5KGHHpEAGbAE&usqp=CAU');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
