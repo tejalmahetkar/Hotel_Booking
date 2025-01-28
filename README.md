@@ -1,1 +1,2 @@
 # Hotel_Booking
+A hotel booking website built using HTML, CSS, and JavaScript, designed to provide users with an intuitive platform to search, view, and book hotel rooms. The website features a responsive layout, interactive elements, and a simple booking form to enhance user experience. The project demonstrates front-end web development skills and includes a clean, user-friendly interface suitable for potential users looking to explore hotel options and make bookings online.
